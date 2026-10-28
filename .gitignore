@@ -1,0 +1,12 @@
+# Local environment variables
+.env
+.env.local
+
+# Go binaries and test outputs
+/snippetbox
+*.exe
+*.test
+*.prof
+
+# OS specific files
+.DS_Store
