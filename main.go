@@ -18,6 +18,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 // Testing
 // Github's 
 // Green bars
+// okk
 
 func snippetView(w http.ResponseWriter, r *http.Request) {
 	id, err := strconv.Atoi(r.PathValue("id"))
