@@ -12,6 +12,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 	w.Write([]byte("Hello from Snippetbox"))
 } // Test comment
+// blud
 
 func snippetView(w http.ResponseWriter, r *http.Request) {
 	id, err := strconv.Atoi(r.PathValue("id"))
