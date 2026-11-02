@@ -26,7 +26,7 @@ func snippetView(w http.ResponseWriter, r *http.Request) {
 //
 //
 //
-//
+// what
 
 func snippetCreate(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Display a form for creating a new snippet..."))
