@@ -2,15 +2,17 @@
 <html lang='en'>
     <head>
         <meta charset='utf-8'>
-        <title>Home - Snippetbox</title>
+        <title>{{define "title"}}Home{{end}}</title>
     </head>
     <body>
         <header>
             <h1><a href='/'>Snippetbox</a></h1>
         </header>
         <main>
+        {{define "main"}}
             <h2>Latest Snippets</h2>
             <p>There's nothing to see here yet!</p>
+        {{end}}
         </main>
         <footer>Powered by <a href='https://go.dev/'>Go</a></footer>
     </body>
