@@ -49,4 +49,3 @@ func snippetCreatePost(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusCreated)
 	w.Write([]byte("Save a new snippet..."))
 }
-//
